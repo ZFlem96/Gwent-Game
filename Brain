@@ -1,0 +1,30 @@
+package com.neumont.csc150.controller;
+
+import com.neumont.csc150.model.Nilphguardian;
+import com.neumont.csc150.model.Player;
+import com.neumont.csc150.model.Temarian;
+
+/*
+ * gui : GUI
+player1 : Player
+player2 : Player
+t : TemerianPlayer
+n : NilphguardianPlayer 
+ */
+public class Brain {
+	private GUI gui;
+	private Player player1;
+	private Player player2;
+	private Temarian t;
+	private Nilphguardian n;
+	
+	public Brain() {
+		gui = new GUI();
+		player1 = new Player();
+		player2 = new Player();
+		t = new Temarian();
+		n = new Nilphguardian(); 
+		
+	}
+
+}
